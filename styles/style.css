@@ -1,0 +1,31 @@
+@-o-viewport {
+	width: device-width;
+	height: device-height;
+	zoom: 0.65;
+}
+        
+@font-face {
+	/* Snickles font by Tup Wanders, http://www.tupwanders.nl/ */
+	/* License: http://www.fontsquirrel.com/license/Snickles */
+	font-family: 'SnicklesRegular';
+	src: url('http://media.shinydemos.com/svg-speedtest/Snickles-webfont.eot');
+	src: url('http://media.shinydemos.com/svg-speedtest/Snickles-webfont.eot?#iefix') format('embedded-opentype'),
+                 url('http://media.shinydemos.com/svg-speedtest/Snickles-webfont.woff') format('woff'),
+                 url('http://media.shinydemos.com/svg-speedtest/Snickles-webfont.ttf') format('truetype'),
+                 url('http://media.shinydemos.com/svg-speedtest/Snickles-webfont.svg#SnicklesRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;        
+}
+        
+#borderrect {
+	stroke: black;
+}
+        
+svg{
+	background-color: #000;
+}
+		
+#heading, .errortext{
+	font-family: 'SnicklesRegular';
+}
+     
